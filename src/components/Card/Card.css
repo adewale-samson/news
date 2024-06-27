@@ -1,0 +1,31 @@
+.card-container{
+    width: 400px;
+    height: 530px;
+    border: 1px solid #EAEAEA;
+}
+.card-img{
+    width: 400px;
+    height: 217px;
+}
+.card-img img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.date{
+    margin-bottom: 20px;
+}
+.text{
+    margin-bottom: 25px;
+}
+.card-half{
+    padding: 20px;
+}
+.card-heading{
+    margin-bottom: 20px;
+}
+.card-btn{
+    background-color: #fff;
+    font-weight: 700;
+    border: none;
+    cursor: pointer;
+}
