@@ -13,7 +13,7 @@ const Homepage = () => {
     const dataSlice = [...apiData].slice(0, 6)
     console.log(dataSlice);
     useEffect(() => {
-        axios.get(`https://newsapi.org/v2/everything?q=${data}&from=2024-05-27&sortBy=publishedAt&apiKey=6c4f02d3895b4639b40c9ccd895bc885`)
+        axios.get(`https://newsapi.org/v2/everything?q=${data}&from=2024-06-15&sortBy=publishedAt&apiKey=6c4f02d3895b4639b40c9ccd895bc885`)
         .then(res => {
             console.log(res);
             setApiData(res.data.articles)
